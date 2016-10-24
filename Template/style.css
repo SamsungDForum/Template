@@ -1,0 +1,147 @@
+* {
+	margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 1880px;
+    height: 1040px;
+    
+    padding: 20px;
+   
+    background-color: #ccffcc;
+}
+
+table {
+	font-size: 20px;
+	
+	border: 1px solid black;
+}
+
+tr {
+	text-align: center;
+}
+
+td {
+	padding: 10px;
+	
+	text-align: center;
+	
+	border: 1px solid black;
+}
+
+#button1, #button2, #button3, #button4, #button5, #button6 {
+	width: 100px;
+	height: 30px;
+}
+
+#result {
+	font-size: 20px;
+}
+
+#returnIcon {
+	position: absolute;
+	
+	left: 1840px;
+	top: 1012px;
+	
+	width: 80px;
+	height: 68px;
+
+	background-image: url('./returnIcon.png');
+	background-repeat: no-repeat;
+
+	z-index: 100;
+}
+
+.dim {
+	position: absolute;
+	
+	left: 0px;
+	top: 0px;
+	
+	width: 1920px;
+	height: 1080px;
+
+	background-image: url('./dim.png');
+	background-repeat: repeat;
+}
+
+.video {
+	position: absolute;
+	
+	left: 0px;
+	top: 0px;
+	
+	width: 1920px;
+	height: 1080px;
+}
+
+.loadingIcon {
+	position: absolute;
+
+	left: 894px;
+	top: 474px;
+
+	width: 132px;
+	height: 132px;
+
+	background-image: url('./loading.png');
+	background-repeat: repeat;
+
+	-webkit-animation: rotation 0.8s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+	100% {-webkit-transform: rotate(360deg);}
+}
+
+.img {
+	position: absolute;
+	
+	left: 0px;
+	top: 0px;
+	
+	width: 1920px;
+	height: 1080px;
+}
+
+.exitPopup {
+	position: absolute;
+	
+	left: 775px;
+	top: 370px;
+	
+	width: 370px;
+	height: 90px;
+
+	padding: 20px;
+
+	font-size: 40px;
+
+	background-color: #bdbdbd;
+}
+
+#yesButton {
+	position: absolute;
+
+	left: 90px;
+	top: 80px;
+
+	width: 100px;
+	height: 30px;
+
+	font-size: 20px;
+}
+
+#noButton {
+	position: absolute;
+
+	left: 220px;
+	top: 80px;
+
+	width: 100px;
+	height: 30px;
+
+	font-size: 20px;
+}

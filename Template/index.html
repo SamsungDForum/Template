@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel='stylesheet' type='text/css' href='./style.css'/>
+    <script type='text/javascript' src='./main.js'></script>
+</head>
+<body onload='main();' onkeydown='handleKeydown(event);'> 
+	<h1>Template Application</h1>
+	<br>
+	<h2>This is for playing and painting contents. Please click buttons.</h2>
+	<br>
+	
+	<table>
+		<tr>
+			<td><b>Function</b></td>
+			<td><b>Play action</b></td>
+		</tr>
+		<tr>
+			<td>Play contents 1</td>
+			<td><input id='button1' type='button' onclick='function1();' onmouseover='moveFocus(1);' value='Click'></td>
+		</tr>
+		<tr>
+			<td>Play contents 2</td>
+			<td><input id='button2' type='button' onclick='function2();' onmouseover='moveFocus(2);' value='Click'></td>
+		</tr>
+		<tr>
+			<td>Paint contents 3</td>
+			<td><input id='button3' type='button' onclick='function3();' onmouseover='moveFocus(3);' value='Click'></td>
+		</tr>
+		<tr>
+			<td>Paint contents 4</td>
+			<td><input id='button4' type='button' onclick='function4();' onmouseover='moveFocus(4);' value='Click'></td>
+		</tr>
+		<tr>
+			<td>Paint contents 5</td>
+			<td><input id='button5' type='button' onclick='function5();' onmouseover='moveFocus(5);' value='Click'></td>
+		</tr>
+		<tr>
+			<td>Log Clear</td>
+			<td><input id='button6' type='button' onclick='clearLog();' onmouseover='moveFocus(6);' value='Click'></td>
+		</tr>
+	</table>
+
+	<br>
+	<h2>Result</h2>
+	<div id='result'></div>
+	<div id='returnIcon' onclick='clickReturn();'></div>
+</body>
+</html>
